@@ -4,15 +4,16 @@ import Profesors from './Profesors'
 import OurHistory from './OurHistory'
 import ReserveClass from './ReserveClass'
 import Footer from './Footer'
+import './fire'
 
 function App() {
   return (
     <>
-    <Home />
-    <Profesors />
-    <OurHistory />
-    <ReserveClass />
-    <Footer />
+      <Home />
+      <Profesors />
+      <OurHistory />
+      <ReserveClass />
+      <Footer />
     </>
   );
 }
