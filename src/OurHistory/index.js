@@ -3,7 +3,7 @@ import { Image } from '@nextui-org/react'
 
 export default function index() {
     return (
-        <section className='flex justify-center mt-36 mb-8 gap-24 flex-wrap' >
+        <section id='about-us' className='flex justify-center mt-20 mb-8 gap-24 flex-wrap' >
 
             <div className='w-5/6 sm:w-1/3 space-y-8 mt-16' >
 

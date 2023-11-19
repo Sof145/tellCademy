@@ -4,11 +4,11 @@ import React from 'react'
 export default function index() {
     return (
         <section
-            className='flex flex-col items-center justify-center px-10 gap-14
+            className='flex flex-col items-center justify-center px-14 gap-14
              mt-32 md:flex-row md:items-start'
         >
 
-            <div className='w-5/6 md:w-80 space-y-8' >
+            <div className='w-80 space-y-8' >
 
                 <p
                     className='text-xl sm:text-sm'
@@ -21,20 +21,21 @@ export default function index() {
                 <Link
                     target='_blank'
                     rel='noreferrer noopener'
-                    href='https://api.whatsapp.com/send/?phone=%2B573209462296&text=Hola,+estoy+interesado+en+reservar+una+clase'>
+                    href='https://api.whatsapp.com/send/?phone=%2B573209462296&text=Hola,+estoy+interesado+en+reservar+una+clase'
+                >
 
                     <Button
-                        color='primary'
+                        color='danger'
                         size='lg'
-                        className='bg-[#022359]'
                     >
                         Agendar Clase
                     </Button>
+
                 </Link>
 
             </div>
 
-            <div className='w-5/6 md:w-80 space-y-4' >
+            <div className='w-80 space-y-4' >
 
                 <Image
                     isZoomed='true'
@@ -46,13 +47,13 @@ export default function index() {
                 <p
                     className='text-sm'
                 >
-                    Tu pones el tema de la clase, nosotros te ayudamos con la gramatica, te gusta la moda?
-                    Descubriremos el pasado de la moda, veremos como describir vestidos!
+                    Tu pones el tema de la clase, nosotros te ayudamos con la gramática, te gusta la moda?
+                    Descubriremos el pasado de la moda, veremos como describir atuendos!
                 </p>
 
             </div>
 
-            <div className='w-5/6 md:w-80 space-y-4 ' >
+            <div className='w-80 space-y-4 ' >
 
                 <Image
                     isZoomed='true'
@@ -62,8 +63,8 @@ export default function index() {
                 <p
                     className='text-sm'
                 >
-                    No mas clases aburridas! Con nosotros perderas el miedo al ingles conversando con tus
-                    profes y tus compañeros, sera divertido!
+                    No mas clases aburridas! Con nosotros perderas el miedo al inglés conversando con tus
+                    profes y tus compañeros, será divertido!
                 </p>
             </div>
 
