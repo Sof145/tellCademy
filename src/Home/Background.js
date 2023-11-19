@@ -2,12 +2,12 @@ import React from 'react'
 
 export default function Background() {
     return (
-        <div className='z-[-1] absolute w-full h-full max-h-full'>
-            <div id="bg-wrap" className='h-full max-h-full'>
+        <div className='z-[-1] absolute w-full h-full max-h-full max-w-full'>
+            <div id="bg-wrap" className='h-full max-h-full lg:w-full w-[400vw]'>
                 <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
                     <defs>
                         <radialGradient id="Gradient1" cx="50%" cy="50%" fx="0.441602%" fy="50%" r=".5"><animate attributeName="fx" dur="34s" values="0%;3%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(255, 0, 103, 1)"></stop><stop offset="100%" stop-color="rgba(255, 0, 103, 0)"></stop></radialGradient>
-                        <radialGradient id="Gradient2" cx="50%" cy="50%" fx="2.68147%" fy="50%" r=".5"><animate attributeName="fx" dur="23.5s" values="0%;3%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(195, 7, 48, 1)"></stop><stop offset="100%" stop-color="rgba(195, 7, 48, 0)"></stop></radialGradient>
+                        <radialGradient id="Gradient2" cx="50%" cy="50%" fx="2.68147%" fy="50%" r=".5"><animate attributeName="fx" dur="23.5s" values="0%;3%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(255, 83, 154, 1)"></stop><stop offset="100%" stop-color="rgba(255, 83, 154, 0)"></stop></radialGradient>
                         <radialGradient id="Gradient3" cx="50%" cy="50%" fx="0.836536%" fy="50%" r=".5"><animate attributeName="fx" dur="21.5s" values="0%;3%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(255, 0, 122, 1)"></stop><stop offset="100%" stop-color="rgba(255, 0, 122, 0)"></stop></radialGradient>
                         <radialGradient id="Gradient4" cx="50%" cy="50%" fx="4.56417%" fy="50%" r=".5"><animate attributeName="fx" dur="23s" values="0%;5%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(241, 220, 232, 1)"></stop><stop offset="100%" stop-color="rgba(241, 220, 232, 0)"></stop></radialGradient>
                         <radialGradient id="Gradient5" cx="50%" cy="50%" fx="2.65405%" fy="50%" r=".5"><animate attributeName="fx" dur="24.5s" values="0%;5%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(255, 0, 127, 1)"></stop><stop offset="100%" stop-color="rgba(255, 0, 127, 0)"></stop></radialGradient>

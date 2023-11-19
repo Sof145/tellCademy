@@ -1,13 +1,13 @@
 import React from 'react'
-import { Image } from "@nextui-org/react";
+import { Button, Image } from "@nextui-org/react";
 import StudentsImage from '../Assets/images/students.jpg'
 import Background from './Background';
 import flag from '../Assets/images/flag.jpeg'
 export default function Hero() {
     return (
-        <section className='flex flex-col items-center justify-center relative overflow-hidden'>
+        <section className='flex flex-col items-center justify-center relative overflow-hidden text-[#022359]'>
             <Background />
-            <div className='flex justify-center w-[80%] mt-12 gap-20'>
+            <div className='flex justify-center w-[80%] mt-18 gap-[10%] flex-wrap flex-wrap-reverse'>
                 <div className='grow-[1] basis-1/4'>
                     <Image
                         isZoomed
@@ -15,24 +15,40 @@ export default function Hero() {
                         src={StudentsImage}
                     />
                 </div>
-                <h1 className='text-8xl basis-1/4 grow-[3] flex items-center text-[#022359]'>
-                    Mejora tu inglés, practica, diviértete y aprende!
-                </h1>
+                <div className='lg:text-8xl text-6xl basis-1/4 grow-[3] flex flex-col justify-center text-[#022359]'>
+                    <h1>
+                        Mejora tu inglés, practica, diviértete y aprende!
+                    </h1>
+                    <Button
+                        size='lg'
+                        className='mt-8 lg:w-1/3'
+                        color='danger'>
+                        Agendar clase
+                    </Button>
+                </div>
             </div>
-            <div className='justify-end'>
-                <div className='m-w-30'>
-                    <div className=''>
+
+            <div className='flex justify-center w-[80%] mt-12 flex-wrap my-20'>
+                <div className='grow-[2] basis-1/4 lg:min-w-[0] min-w-[80%]'></div>
+                <div className='grow-[2] basis-1/4 flex gap-6 items-center flex-wrap flex-wrap-reverse'>
+                    <div className='grow-[1] basis-1/4 lg:min-w-[40%] min-w-[60%]'>
                         <Image
                             isZoomed
                             alt=""
                             src={flag}
                         />
                     </div>
-                    <h2 className='text-4xl basis-1/4 grow-[3] flex items-center text-[#022359]'>
-                        Mejora tu inglés, practica, diviértete y aprende!
-                    </h2>
+                    <div className='text-xl basis-1/4 grow-[3]'>
+                        <h2 className='text-3xl'>
+                            Entiende el mundo 🌍
+                        </h2>
+                        <p className="mt-6">
+                            El mundo está en inglés, viaja, haz negocios, descubre oportunidades!
+                        </p>
+                    </div>
                 </div>
             </div>
+
         </section>
     )
 }
