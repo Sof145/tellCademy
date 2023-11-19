@@ -7,7 +7,7 @@ export default function Hero() {
     return (
         <section className='flex flex-col items-center justify-center relative overflow-hidden text-[#022359]'>
             <Background />
-            <div className='flex justify-center w-[80%] mt-18 gap-[10%] flex-wrap flex-wrap-reverse'>
+            <div className='flex justify-center w-[80%] gap-[10%] flex-wrap flex-wrap-reverse pt-20'>
                 <div className='grow-[1] basis-1/4'>
                     <Image
                         isZoomed
@@ -17,11 +17,11 @@ export default function Hero() {
                 </div>
                 <div className='lg:text-8xl text-6xl basis-1/4 grow-[3] flex flex-col justify-center text-[#022359]'>
                     <h1>
-                        Mejora tu inglés, practica, diviértete y aprende!
+                        Mejora tu inglés, práctica, diviértete y aprende!
                     </h1>
                     <Button
                         size='lg'
-                        className='mt-8 lg:w-1/3'
+                        className='my-8 lg:w-1/3'
                         color='danger'>
                         Agendar clase
                     </Button>
