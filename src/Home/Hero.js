@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Image } from "@nextui-org/react";
+import { Button, Image, Link } from "@nextui-org/react";
 import StudentsImage from '../Assets/images/students.jpg'
 import Background from './Background';
 import flag from '../Assets/images/flag.jpeg'
@@ -19,12 +19,17 @@ export default function Hero() {
                     <h1>
                         Mejora tu inglés, práctica, diviértete y aprende!
                     </h1>
-                    <Button
-                        size='lg'
-                        className='my-8 lg:w-1/3'
-                        color='danger'>
-                        Agendar clase
-                    </Button>
+                    <Link
+                        target='_blank'
+                        rel='noreferrer noopener'
+                        href='https://api.whatsapp.com/send/?phone=%2B573209462296&text=Hola,+estoy+interesado+en+reservar+una+clase'>
+                        <Button
+                            size='lg'
+                            className='my-8 lg:w-1/3 bg-[#022359]'
+                            color='danger'>
+                            Agendar clase
+                        </Button>
+                    </Link>
                 </div>
             </div>
 

@@ -1,4 +1,4 @@
-import { Button, Image } from '@nextui-org/react'
+import { Button, Image, Link } from '@nextui-org/react'
 import React from 'react'
 
 export default function index() {
@@ -18,12 +18,19 @@ export default function index() {
 
                 <p>Contamos con profesores apasionados, divertidos y profesionales.</p>
 
-                <Button
-                    color='primary'
-                    size='lg'
-                >
-                    Agendar Clase
-                </Button>
+                <Link
+                    target='_blank'
+                    rel='noreferrer noopener'
+                    href='https://api.whatsapp.com/send/?phone=%2B573209462296&text=Hola,+estoy+interesado+en+reservar+una+clase'>
+
+                    <Button
+                        color='primary'
+                        size='lg'
+                        className='bg-[#022359]'
+                    >
+                        Agendar Clase
+                    </Button>
+                </Link>
 
             </div>
 
